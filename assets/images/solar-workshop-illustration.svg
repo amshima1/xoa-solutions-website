@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="790" viewBox="0 0 1200 790" fill="none">
+  <rect width="1200" height="790" fill="#F3F7F4"/>
+  <rect x="95" y="95" width="1010" height="600" rx="8" fill="#fff" stroke="#DCE7E1" stroke-width="8"/>
+  <path d="M95 166h1010" stroke="#DCE7E1" stroke-width="8"/>
+  <circle cx="142" cy="130" r="11" fill="#16834A"/>
+  <circle cx="178" cy="130" r="11" fill="#C5E8CF"/>
+  <rect x="185" y="228" width="370" height="265" rx="6" fill="#102B46"/>
+  <rect x="207" y="250" width="326" height="216" rx="3" fill="#E4EFE8"/>
+  <path d="m250 388 64-114 64 114H250Z" fill="#16834A"/>
+  <path d="m385 388 54-94 54 94H385Z" fill="#16834A"/>
+  <path d="M258 400h211M314 274v114m64-114v114m64-94v94" stroke="#fff" stroke-width="5"/>
+  <path d="M333 493v45m72-45v45m-111 0h150" stroke="#102B46" stroke-width="10" stroke-linecap="round"/>
+  <rect x="664" y="232" width="244" height="168" rx="5" fill="#E4EFE8" stroke="#16834A" stroke-width="8"/>
+  <path d="M702 355v-52l41-27 40 27v52m22 0v-52l41-27 40 27v52" stroke="#102B46" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M725 355v-28h36v28m62 0v-28h36v28" stroke="#16834A" stroke-width="8"/>
+  <path d="M786 400v43m-46 0h92" stroke="#102B46" stroke-width="10" stroke-linecap="round"/>
+  <path d="M187 582h724" stroke="#C9D8CF" stroke-width="8" stroke-linecap="round"/>
+  <g fill="#102B46">
+    <circle cx="286" cy="551" r="23"/>
+    <path d="M248 606c4-26 17-39 38-39s34 13 38 39h-76Z"/>
+    <circle cx="478" cy="551" r="23"/>
+    <path d="M440 606c4-26 17-39 38-39s34 13 38 39h-76Z"/>
+    <circle cx="666" cy="551" r="23"/>
+    <path d="M628 606c4-26 17-39 38-39s34 13 38 39h-76Z"/>
+    <circle cx="856" cy="551" r="23"/>
+    <path d="M818 606c4-26 17-39 38-39s34 13 38 39h-76Z"/>
+  </g>
+  <path d="M199 632h722m-690 0v27m658-27v27" stroke="#16834A" stroke-width="9" stroke-linecap="round"/>
+  <text x="600" y="666" fill="#586A78" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="2">SOLAR ENERGY WORKSHOP</text>
+</svg>
