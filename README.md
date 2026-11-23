@@ -8,7 +8,7 @@ Official corporate website for XOA Solutions Limited, built with plain HTML, CSS
 - `about.html` — company, vision, mission and values
 - `services.html` — areas of work
 - `projects.html` — illustrative visual concepts, not verified company projects
-- `contact.html` — contact placeholders and a non-submitting enquiry form preview
+- `contact.html` — company contact details and a non-submitting enquiry form preview
 
 Shared styles and behaviour live in `assets/css/style.css` and `assets/js/main.js`. Optimized WebP photography is stored in `assets/images/`; the `assets/images/README.md` file explains how to replace it with approved company images. No contact details, clients, certifications, project claims or performance results have been invented.
 
@@ -30,7 +30,7 @@ Then visit `http://localhost:8000`.
 - Adjust colours, typography, layouts and responsive breakpoints in `assets/css/style.css`.
 - Update mobile navigation, gallery filters, reveal effects and the contact-form preview in `assets/js/main.js`.
 - Replace the illustrative WebP files in `assets/images/` with approved company photography. The project gallery must continue to distinguish illustrative concepts from verified work until project details and images are approved.
-- Replace the email, telephone and WhatsApp placeholders only after the company confirms the correct contact details.
+- The Contact page and shared footers publish the confirmed company email, telephone numbers and office addresses.
 - Connect the contact form to an approved backend before presenting it as a working enquiry channel. The current form intentionally prevents submission.
 - The chatbot endpoint is `api/chat.js`, a Node.js serverless function compatible with Vercel. It uses `OPENAI_API_KEY` from the server environment and optionally `OPENAI_MODEL` (defaults to `gpt-4o-mini`). The key is never included in browser code. Its knowledge snapshot is maintained in `api/knowledge.js` and is sourced from the five published pages; update it when company copy changes.
 - For local development, install the Vercel CLI if needed and run `npx vercel dev` from the repository root. Add `OPENAI_API_KEY` and, optionally, `OPENAI_MODEL` to a local `.env.local` file. Never commit `.env.local`; `.gitignore` excludes local environment files.

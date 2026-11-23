@@ -305,10 +305,10 @@
     const text = question.toLowerCase();
 
     if (/partner|partnership|collaborat|supplier/.test(text)) {
-      return "The website does not publish a partnership process or partner contact details. Its Contact page has an enquiry form preview, but that form needs backend integration before it can submit; contact details are awaiting confirmation.";
+      return "The website does not publish a partnership process. You can contact XOA at bayokng2@gmail.com or +234 803 668 4937 / +234 809 804 2499. The Contact page enquiry form needs backend integration before it can submit enquiries.";
     }
     if (/contact|email|telephone|phone|whatsapp|get in touch|reach/.test(text)) {
-      return "The Contact page lists email, telephone and WhatsApp details as awaiting confirmation. Its enquiry form is a frontend preview and cannot submit messages until a backend is connected. You can visit the Contact page from the site navigation.";
+      return "Contact XOA at bayokng2@gmail.com, by telephone at +234 803 668 4937 or +234 809 804 2499, or on WhatsApp using either number. The Abuja office is Suite 21B, Abuja Shopping Mall, Wuse Zone 3, Abuja, Nigeria; the Akure office is Km 9 Ilesa Express Road, Akure, Nigeria. The enquiry form needs backend integration before it can submit enquiries.";
     }
     if (/project|street lighting|transformer|mini-grid|electrification|gubio|ikot osom/.test(text)) {
       return "Published XOA project information includes solar street lighting installations across Abuja, Kano, Kaduna, Borno, Cross River, Lagos and other states; transformer and rural electrification work with a site photo geotagged to Ikot Osom, Akwa Ibom; and a 50 kVA solar mini-grid in Gubio, Borno State, alongside solar power systems for homes and institutions. Project dates, clients, specifications and performance statistics are not published.";

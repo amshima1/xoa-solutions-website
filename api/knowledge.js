@@ -17,7 +17,7 @@ const pages = [
   },
   {
     title: "Contact",
-    content: `The published Contact page welcomes conversations about energy and engineering. Email, telephone and WhatsApp details are marked as awaiting confirmation; no actual contact details are published. The enquiry form is a frontend preview and needs backend integration before it can submit or deliver enquiries. Do not invent contact details or claim that a message has been sent.`
+    content: `The published Contact page welcomes conversations about energy and engineering. Contact XOA Solutions Limited by email at bayokng2@gmail.com, by telephone at +234 803 668 4937 or +234 809 804 2499, or by WhatsApp using either number. The Abuja office is Suite 21B, Abuja Shopping Mall, Wuse Zone 3, Abuja, Nigeria. The Akure office is Km 9 Ilesa Express Road, Akure, Nigeria. The enquiry form needs backend integration before it can submit or deliver enquiries. Do not claim that a message has been sent.`
   }
 ];
 

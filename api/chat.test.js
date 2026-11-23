@@ -122,7 +122,8 @@ test("sends published knowledge and conversation context to the AI provider", as
   assert.equal(providerRequest.model, "test-model");
   assert.equal(providerRequest.messages[0].role, "system");
   assert.match(providerRequest.messages[0].content, /50 kVA solar mini-grid in Gubio/);
-  assert.match(providerRequest.messages[0].content, /awaiting confirmation/);
+  assert.match(providerRequest.messages[0].content, /bayokng2@gmail\.com/);
+  assert.match(providerRequest.messages[0].content, /\+234 803 668 4937/);
   assert.deepEqual(providerRequest.messages.slice(1).map(({ role }) => role), ["user", "assistant", "user"]);
   assert.equal(requestOptions.headers.Authorization, `Bearer ${mockApiKey}`);
   assert.doesNotMatch(JSON.stringify(response.payload), new RegExp(mockApiKey));
@@ -137,13 +138,16 @@ test("returns a generic error when the AI provider is unavailable", async () => 
   assert.doesNotMatch(JSON.stringify(response.payload), /secret upstream detail|test-key/);
 });
 
-test("knowledge base covers the published pages without inventing confirmed details", () => {
+test("knowledge base covers the published pages and confirmed contact details", () => {
   assert.match(knowledgeBase, /founded in 2007/);
   assert.match(knowledgeBase, /solar and photovoltaic energy/);
   assert.match(knowledgeBase, /quality assurance and standardisation/);
   assert.match(knowledgeBase, /street-lighting systems across Abuja, Kano, Kaduna, Borno, Cross River, Lagos/);
   assert.match(knowledgeBase, /geotagged to Ikot Osom, Akwa Ibom/);
   assert.match(knowledgeBase, /50 kVA solar mini-grid in Gubio, Borno State/);
-  assert.match(knowledgeBase, /awaiting confirmation/);
-  assert.doesNotMatch(knowledgeBase, /\+?\d[\d ()-]{7,}/);
+  assert.match(knowledgeBase, /bayokng2@gmail\.com/);
+  assert.match(knowledgeBase, /\+234 803 668 4937/);
+  assert.match(knowledgeBase, /\+234 809 804 2499/);
+  assert.match(knowledgeBase, /Suite 21B, Abuja Shopping Mall/);
+  assert.match(knowledgeBase, /Km 9 Ilesa Express Road/);
 });
